@@ -1,5 +1,4 @@
-// Thierry St-Arnaud
-// 27649460
+// Thierry St-Arnaud, Copyright 2017
 
 // Receives an array of doubles and performs a perceptual hash on it.
 // The resulting hash is put in the received BitSet.

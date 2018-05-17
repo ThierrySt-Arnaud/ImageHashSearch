@@ -1,0 +1,1 @@
+This folder stores the image database in the appropriate format. The software looks here to generate the database.

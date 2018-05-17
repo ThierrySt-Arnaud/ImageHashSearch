@@ -1,5 +1,14 @@
 Image Hash Search README
 
+
+----====####====---- What is this? ----====####====----
+
+	This software is an image comparator that tries to find similar
+	images in a database within a specified tolerance from a given
+	file or directory. It uses a DCT to hash the images and a bitwise
+	trie to compare the hash with the database. For more details, you
+	can take a look at the more detailed project report.
+
 ----====####====---- Compatibility notes ----====####====----
 
 	This software was tested on both Mac OS X 10.12.6 and Windows 10
@@ -45,3 +54,9 @@ Image Hash Search README
 		imgdb\nameoftheimage.pgm
 
 	On a Mac OS or Linux machine, paths follow standard Unix notation.
+
+----====####====---- And finally… ————====####====----
+
+A big thank you to Project Nayuki for the wonderful fast DCT and FFT algorithms in Java!
+
+
